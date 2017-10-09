@@ -1,0 +1,36 @@
+1. Gambarlah diagram EER untuk masalah berikut:
+Sebuah bank swasta yang terdiri dari beberapa cabang membutuhkan sistem basis
+data yang baru. Setiap cabang diidentifikasi oleh kode, nama, berlokasi di kota-kota
+besar dan masing-masing memiliki aset tersendiri.
+Setiap customer dari bank tersebut diidentifikasi melalui id, serta memiliki nama,
+alamat, dan kota tempat mereka tinggal. Para customer ini dapat memiliki rekening.
+Setiap customer ini dilayani oleh seorang bankir yang tentu saja merupakan karyawan
+bank tersebut.
+Setiap karyawan bank ini diidentikasi oleh nomor induk karyawan. Para karyawan ini
+tentu memiliki id_karyawan, nama, nomor telepon, dan identitas manajer-nya. Bank
+ini juga ingin mencatat tanggal kapan mereka mulai bekerja dan lamanya mereka
+bekerja.
+Bank ini menawarkan dua jenis rekening, yaitu tabungan biasa dan giro. Satu rekening
+dapat dimiliki oleh lebih dari satu customer. Setiap customer pun boleh memiliki lebih
+dari satu rekening. Selain nomor rekening dan saldo, bank juga mencatat tanggal
+terakhir pengaksesan rekening oleh masing-masing pemegangnya. Sebagai tambahan,
+setiap rekening tabungan memiliki tingkat suku bunga, sementara setiap rekening giro
+memiliki limit penarikan uang.
+2. Buat EER dari kasus berikut:
+Rumah sakit X menerima pasien rawat inap. Untuk itu, setiap pasien akan diberikan
+kamar menginap di rumah sakit tersebut. Setiap kamar tersebut akan dikelola dan
+dikelompokkan di
+dalam suatu ruang (gedung). Misalnya: Ruang Melati, Ruang Mawar, dll. Setiap
+ruangan tersebut biasanya terdiri dari 20-30 kamar.
+Setiap pasien di rumah sakit tersebut diberikan nomor pasien yang unik. Untuk setiap
+per kedatangan perawatan inap, akan dicatat nomor kedatangan pasien yang keberapa
+kali. Nomor ini tentu akan bertambah terus, misalnya kedatangan pasien A yang ke-1,
+2, dst.
+Untuk setiap per kedatangan pasien tersebut akan dicatat pula informasi mengenai
+tanggal masuk, penganggung jawab (saudara pasien), nomor asuransi (jika ada), 
+
+alamat, serta dokter yang merujuk.
+Dokter yang membuat rujukan akan menentukan jenis perawatan yang paling sesuai
+untuk pasien tersebut, tergantung dari jenis perawatan yang dibutuhkan, yang
+tentunya akan menentukan biaya-nya. Misalnya: perawatan standar memiliki biaya
+kurang dari 5 juta, sedangkan perawatan intensif memiliki biaya > 10 juta.
